@@ -3,7 +3,6 @@ import numpy as np
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
-
 def extract_colors(image_path, k=5):
    
     img = cv2.imread(image_path)
